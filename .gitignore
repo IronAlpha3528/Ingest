@@ -1,0 +1,55 @@
+# Environment & Secret files
+.env
+.env.*
+!.env.example
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+VAULT
+.agents
+.uv_python
+
+# uv & package caches
+.uv/
+
+# Testing & Type checking artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build & Distribution artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Operating System & IDE artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Temporary media downloads and test vaults
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.ogg
+*.opus
+temp/
+tmp/
+_test_vault/
